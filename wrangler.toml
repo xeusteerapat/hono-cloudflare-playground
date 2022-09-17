@@ -1,3 +1,5 @@
 name = "hono-cloudflare-playground"
 compatibility_date = "2022-09-17"
 
+[env.dev.build]
+watch_dir = "src/"
