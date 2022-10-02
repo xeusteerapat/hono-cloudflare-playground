@@ -5,11 +5,14 @@
     "@cloudflare/workers-types": "^3.16.0",
     "esbuild": "^0.15.7",
     "miniflare": "^2.9.0",
+    "prisma": "^4.4.0",
     "typescript": "^4.8.3",
     "wrangler": "2.1.4"
   },
   "private": true,
   "dependencies": {
+    "@prisma/client": "^4.3.1",
+    "@types/node": "^18.7.23",
     "hono": "^2.1.4"
   },
   "scripts": {
